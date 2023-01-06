@@ -70,9 +70,12 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+.section{
+    margin-top: 130px;
+}
 /* about section style */
 .about{
-     margin-top: 130px;
+
      background: #FFF8F3;
      border-radius: 10px;
      padding: 130px 150px;
@@ -80,10 +83,10 @@ main{
      
 }
 .section-title{
-    
+    text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .section-description{
     color: #757575;
@@ -103,4 +106,24 @@ main{
     font-weight: 700;
     font-size: 20px;
     color: #474747;
+}
+/* what ido styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    background: #FFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+.skil-title{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.skill-description{
+    color: #757575;
 }
